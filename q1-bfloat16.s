@@ -184,7 +184,7 @@ out_bf16_arr: .word 0, 0, 0
 .align 4
 out_f32_arr:  .word 0, 0, 0
 
-# 訊息（改用 .asciz，最穩）
+# 訊息
 msg_boot:       .asciz "boot\n"
 msg_fail:       .asciz "FAIL: "
 msg_in:         .asciz "in f32 : "
